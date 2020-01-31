@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(242,237,233,1);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  margin-top: 4rem;
+  padding: 1rem 1rem 3rem 1rem;
+  background-color: white;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.swatch-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.code-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.code-container button {
+  display: flex;
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.slider-container input {
+  display: flex;
+  width: 75%;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.slider-container div {
+  display: flex;
+  width: 20%;
+}
